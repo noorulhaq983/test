@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(49, 96, 96);
+    height: 80px;
+}
+ header nav{
+    float: right;
+}
+header h1{
+    float: left;
+    color: white;
+    padding-left: 15px;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+header nav{
+    padding-top: 15px;
+}
+header h1{
+    padding-top: 10px;
+}
+
+.highlight{
+    color: rgb(192, 79, 38);
+}
+header nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.active{
+    color: rgb(203, 35, 35);
+}
+/*showcase style start here*/
+.showcase{
+    height: 400px;
+    background-color: black;
+    text-align: center;
+
+}
+.showcase h1{
+    color: white;
+    padding-top: 120px;
+   
+    font-size: 4rem;
+}
+.showcase p{
+    padding-top: 20px;
+    color: white;
+}
+.subscription{
+    height: 80px;
+    background-color: rgb(49, 96, 96);
+}
+.subscription h2{
+    float: left;
+    padding: 12px;
+    color: white;
+}
+.subscription form{
+    float: right;
+    padding-top: 20px;
+}
+.subscription form input{
+    height: 30px;
+    width: 250px;
+}
+
+
+.subscription form button{
+    padding: 5px 17px;
+    background-color: rgb(236, 78, 26);
+    color: white;
+    border: none;
+}
+header{
+    height: 80px;
+    
+}
+header h6{
+    font-size: x-large;
+    color: white;
+}
+.container p{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    
+
+}
+header h6{
+    text-align: center;
+
+}
+.div p{
+    text-align: center;
+}
+
+

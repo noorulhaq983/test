@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(49, 96, 96);
+    height: 80px;
+}
+ header nav{
+    float: right;
+}
+header h1{
+    float: left;
+    color: white;
+    padding-left: 15px;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+header nav{
+    padding-top: 15px;
+}
+header h1{
+    padding-top: 10px;
+}
+
+.highlight{
+    color: rgb(192, 79, 38);
+}
+header nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer{
+    margin: 20px;
+    background-color: rgb(19, 178, 165);
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+
+}
+button{
+    flex: auto;
+}
